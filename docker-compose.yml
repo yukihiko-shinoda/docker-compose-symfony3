@@ -52,7 +52,7 @@ services:
     volumes:
       - /etc/pki:/etc/pki
       - ./ansistrano-symfony3:/root/ansistrano-symfony3
-      - ./symfony3-codeanywhere:/root/workspace/repo
+      - ./symfony3:/root/workspace/repo
       - /tmp/symfony3/var/cache:/root/workspace/repo/var/cache
       - /tmp/symfony3/var/logs:/root/workspace/repo/var/logs
       - /tmp/symfony3/var/sessions:/root/workspace/repo/var/sessions
